@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+.pagination .page-item.active .page-link {
+    color: white !important;
+    background-color: black !important;
+  }
+  .pagination .page-link {
+    color: black !important;
+    border: black;
+  }
+  .pagination .page-link:focus {
+    outline: none; 
+    border-color: grey 5px !important;
+    box-shadow: none !important;
+  }
+
+.product-card:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 10px #333);
+    transition: 0.3s;
+}
+
+/* .search-box{
+  width: 300px !important;
+} */
+.Cart{
+  width: 89px;
+}
+
+@media (max-width: 991px) {
+  /* .search-box {
+      width: 150px !important;
+  } */
+  .Cart{
+    width: 126px;
+    padding: 8px 0 !important; 
+  }
+}
+
+.carousel-full{
+  position: relative;
+}
+.carousel-right{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  /* width: 45%; */
+  left: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.carousel-head{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.carousel-name{
+  color: white;
+  font-family:"Protest Revolution";
+  font-size: 32px;
+}
+.carousel-desc{
+  /* margin-top: 40px; */
+  height: 100px;
+  margin: 40px;
+  margin-right: 70px;
+  color: white;
+  font-family: "Madimi One", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .carousel-right{
+    visibility: hidden;
+  }
+}
