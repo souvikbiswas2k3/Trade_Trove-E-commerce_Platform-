@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3102c95.css",
+    "main.js": "/static/js/main.ab77d8da.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/logo1.png": "/static/media/logo1.832bfd8ca6d94688cb00.png",
+    "static/media/asus logo.png": "/static/media/asus logo.764cf24eb0283ad403ef.png",
+    "static/media/chromebook.png": "/static/media/chromebook.910136e70e7d9163b7c8.png",
+    "static/media/ps5.png": "/static/media/ps5.83b2673f20c97d3cdfa9.png",
+    "index.html": "/index.html",
+    "main.e3102c95.css.map": "/static/css/main.e3102c95.css.map",
+    "main.ab77d8da.js.map": "/static/js/main.ab77d8da.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3102c95.css",
+    "static/js/main.ab77d8da.js"
+  ]
+}
